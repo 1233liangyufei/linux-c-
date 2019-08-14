@@ -1,8 +1,8 @@
-第一题
+# 第一题
 
-2013-12-1
+## 2013-12-1
 
-题目
+### 题目
 
 试题编号：	201312-1
 试题名称：	出现次数最多的数
@@ -22,13 +22,13 @@
 样例输出
 10
 
-题解
+### 题解
 
 
 
-2014-03-1
+## 2014-03-1
 
-题目
+### 题目
 
 试题编号：	201403-1
 试题名称：	相反数
@@ -48,27 +48,27 @@
 样例输出
 2
 
-题解
+### 题解
 
 
 
 
 
-2014
+## 2014
 
-题目
-
-
-
-题解
+### 题目
 
 
 
-2014-09-1
+### 题解
 
-题目
 
-题解
+
+## 2014-09-1
+
+### 题目
+
+### 题解
 
 试题编号：	201409-1
 试题名称：	相邻数对
@@ -92,41 +92,41 @@
 评测用例规模与约定
 　　1<=n<=1000，给定的整数为不超过10000的非负整数。
 
-2014
+## 2014
 
-题目
+### 题目
 
-题解
-
-
-
-2014
-
-题目
-
-题解
+### 题解
 
 
 
-2014
+## 2014
 
-题目
+### 题目
 
-题解
-
-
-
-2014
-
-题目
-
-题解
+### 题解
 
 
 
-2017-09-1
+## 2014
 
-题目
+### 题目
+
+### 题解
+
+
+
+## 2014
+
+### 题目
+
+### 题解
+
+
+
+## 2017-09-1
+
+### 题目
 
 试题编号：	201709-1
 试题名称：	打酱油
@@ -152,35 +152,37 @@
 样例说明
 　　把80元分成30元和50元，分别买3瓶和5瓶，其中3瓶送1瓶，5瓶送2瓶，共得到11瓶。
 
-题解
+### 题解
 
-    #include<iostream>
-    #include<algorithm>
-    
-    using namespace std;
-    
-    
-    int main(){
-        int n,res=0;
-        cin>>n;
-        while(n>=50){
-            n-=50;
-            res+=7;
-        }
-        if(n>=30){
-            n-=30;
-            res+=4;
-        }
-        res+=(n/10);
-        cout<<res;
-        return 0;
+```c++
+#include<iostream>
+#include<algorithm>
+
+using namespace std;
+
+
+int main(){
+    int n,res=0;
+    cin>>n;
+    while(n>=50){
+        n-=50;
+        res+=7;
     }
+    if(n>=30){
+        n-=30;
+        res+=4;
+    }
+    res+=(n/10);
+    cout<<res;
+    return 0;
+}
+```
 
 
 
-2017-12-1
+## 2017-12-1
 
-题目
+### 题目
 
 试题编号：	201712-1
 试题名称：	最小差值
@@ -211,34 +213,36 @@
 数据规模和约定
 　　对于所有评测用例，2 ≤ n ≤ 1000，每个给定的整数都是不超过10000的正整数。
 
-题解
+### 题解
 
-    #include<iostream>
-    #include<algorithm>
-    
-    using namespace std;
-    
-    const int N = 1010,MAX=10010;
-    
-    int a[N];
-    int main(){
-        int n;
-        cin>>n;
-        for(int i=0;i<n;i++) cin>>a[i];
-        sort(a,a+n);
-        int m = MAX;
-        for(int i=1;i<n;i++){
-             m = min(m,abs(a[i]-a[i-1]));
-        }
-        cout<<m;
-        return 0;
+```c++
+#include<iostream>
+#include<algorithm>
+
+using namespace std;
+
+const int N = 1010,MAX=10010;
+
+int a[N];
+int main(){
+    int n;
+    cin>>n;
+    for(int i=0;i<n;i++) cin>>a[i];
+    sort(a,a+n);
+    int m = MAX;
+    for(int i=1;i<n;i++){
+         m = min(m,abs(a[i]-a[i-1]));
     }
+    cout<<m;
+    return 0;
+}
+```
 
 
 
-2018-03-1
+## 2018-03-1
 
-题目
+### 题目
 
 试题编号：	201803-1
 试题名称：	跳一跳
@@ -261,41 +265,43 @@
 数据规模和约定
 　　对于所有评测用例，输入的数字不超过30个，保证0正好出现一次且为最后一个数字。
 
-题解
+### 题解
 
 根据输入数据不同，判断不同的加分，因为数据规模不超过30，用一个30的for循环读入数据，当a==0退出循环,a=1时候，没跳中间，分数加1，讲连跳奖励score清0，当跳到中心，增加对应的连跳奖励，并更新连跳奖励score
 
-    #include<iostream>
-    #include<algorithm>
-    
-    using namespace std;
-    
-    int main(){
-        int res=0,score=0;//res最终结果,score连跳加成
-        for(int i=1;i<=30;i++){
-            int a;
-            cin>>a;
-            if(a==0) break;
-            if(a==1) 
-            {
-                res+=1;
-                score=0;//清空连跳加成
-            }
-            if(a==2) 
-            {
-                score+=2;//更新连跳加成
-                res+=score;
-            }
+```c++
+#include<iostream>
+#include<algorithm>
+
+using namespace std;
+
+int main(){
+    int res=0,score=0;//res最终结果,score连跳加成
+    for(int i=1;i<=30;i++){
+        int a;
+        cin>>a;
+        if(a==0) break;
+        if(a==1) 
+        {
+            res+=1;
+            score=0;//清空连跳加成
         }
-        cout<<res;
-        return 0;
+        if(a==2) 
+        {
+            score+=2;//更新连跳加成
+            res+=score;
+        }
     }
+    cout<<res;
+    return 0;
+}
+```
 
 
 
-2018-09-1
+## 2018-09-1
 
-题目
+### 题目
 
 试题编号：	201809-1
 试题名称：	卖菜
@@ -320,33 +326,35 @@
 数据规模和约定
 　　对于所有评测用例，2 ≤ n ≤ 1000，第一天每个商店的菜价为不超过10000的正整数。
 
-题解
+### 题解
 
 读入数据，处理数据，输出数据，读入数组放a[N]，输出放b[N],首尾2个数取平均，中间三个数取平均
 
-    #include<iostream>
-    #include<algorithm>
-    
-    using namespace std;
-    
-    const int N = 1010;
-    int a[N],b[N];
-    int main(){
-        int n;
-        cin>>n;
-        for(int i=0;i<n;i++) cin>>a[i];
-        b[0]=(a[0]+a[1])/2;
-        b[n-1]=(a[n-1]+a[n-2])/2;//首尾2个数取平均
-        for(int i=1;i<n-1;i++) b[i]=(a[i]+a[i-1]+a[i+1])/3;//中间三个数取平均
-        for(int i=0;i<n;i++) cout<<b[i]<<' ';
-        return 0;
-    }
+```c++
+#include<iostream>
+#include<algorithm>
+
+using namespace std;
+
+const int N = 1010;
+int a[N],b[N];
+int main(){
+    int n;
+    cin>>n;
+    for(int i=0;i<n;i++) cin>>a[i];
+    b[0]=(a[0]+a[1])/2;
+    b[n-1]=(a[n-1]+a[n-2])/2;//首尾2个数取平均
+    for(int i=1;i<n-1;i++) b[i]=(a[i]+a[i-1]+a[i+1])/3;//中间三个数取平均
+    for(int i=0;i<n;i++) cout<<b[i]<<' ';
+    return 0;
+}
+```
 
 
 
-2018-12-1
+## 2018-12-1
 
-题目
+### 题目
 
 试题编号：	201812-1
 试题名称：	小明上学
@@ -386,43 +394,45 @@
 　　测试点 7, 8 中所有的信号灯在被观察时均为黄灯。
 　　测试点 9, 10 中将出现各种可能的情况。
 
-题解
+### 题解
 
 模拟题，按照题意读取数据，使用res存储需要时间，对于不同的红绿灯分别判断即可
 
-    #include<iostream>
-    #include<algorithm>
-    
-    using namespace std;
-    int main(){
-        int r,y,g;
-        cin>>r>>y>>g;
-        int n;
-        cin>>n;
-        int res=0;
-        while(n--){
-            int k,t;
-            cin>>k>>t;
-            if(k==0) res+=t;//直路，直接加行走时间
-            if(k==1) res+=t;//红灯，加上红灯时间       
-            if(k==2) res+=(t+r);//黄灯，加上黄灯剩余时间和一个红灯的时间        
-            if(k==3) res+=0;//绿灯，不加，可以删去这句
-        }
-        cout<<res;
-        return 0;
+```c++
+#include<iostream>
+#include<algorithm>
+
+using namespace std;
+int main(){
+    int r,y,g;
+    cin>>r>>y>>g;
+    int n;
+    cin>>n;
+    int res=0;
+    while(n--){
+        int k,t;
+        cin>>k>>t;
+        if(k==0) res+=t;//直路，直接加行走时间
+        if(k==1) res+=t;//红灯，加上红灯时间       
+        if(k==2) res+=(t+r);//黄灯，加上黄灯剩余时间和一个红灯的时间        
+        if(k==3) res+=0;//绿灯，不加，可以删去这句
     }
+    cout<<res;
+    return 0;
+}
+```
 
 
 
-2019-03-1
+## 2019-03-1
 
-题目
+### 题目
 
+![img](http://118.190.20.162/RequireFile.do?fid=b7Gg64e9)
 
+![img](http://118.190.20.162/RequireFile.do?fid=JrBL7JYe)
 
-
-
-题解
+### 题解
 
 思路
 
@@ -436,33 +446,35 @@
 
 本题目的难点部分就在于中位数的处理，由于中位数当为奇数个个数时候就是最中间的元素，偶数时候就是最中间两个元素的平均数，当取平均时候需要输出四舍五入后的浮点数。需要通过判断语句来判断中位数应该如何计算。
 
-    #include<iostream>
-    #include<algorithm>
-    using namespace std;
-    
-    const int N = 100010;//数据规模
-    int a[N];
-    int main(){
-        int n;
-        cin>>n;
-        for(int i=1;i<=n;i++) cin>>a[i];
-        int m,M, mid;//最小，最大，中位数
-        bool tag = true;//是整数与否
-        m = min(a[1],a[n]);
-        M = max(a[1],a[n]);//二者较大是最大，较小是最小
-        if(n%2==1) mid = a[(n+1)/2];//个数奇数，直接取中间
-        else
-        {//个数偶数，取中间两个的平均数
-            if((a[n/2]+a[n/2+1])%2!=0) tag = false;//平均数不能整除
-            mid = (a[n/2]+a[n/2+1])/2;
-            
-        }
-        if(tag)//可以整除
-        printf("%d %d %d",M,mid,m);
-        else//不能整除
-        printf("%d %d.5 %d",M,mid,m);
-        return 0;
+```c++
+#include<iostream>
+#include<algorithm>
+using namespace std;
+
+const int N = 100010;//数据规模
+int a[N];
+int main(){
+    int n;
+    cin>>n;
+    for(int i=1;i<=n;i++) cin>>a[i];
+    int m,M, mid;//最小，最大，中位数
+    bool tag = true;//是整数与否
+    m = min(a[1],a[n]);
+    M = max(a[1],a[n]);//二者较大是最大，较小是最小
+    if(n%2==1) mid = a[(n+1)/2];//个数奇数，直接取中间
+    else
+    {//个数偶数，取中间两个的平均数
+        if((a[n/2]+a[n/2+1])%2!=0) tag = false;//平均数不能整除
+        mid = (a[n/2]+a[n/2+1])/2;
+        
     }
+    if(tag)//可以整除
+    printf("%d %d %d",M,mid,m);
+    else//不能整除
+    printf("%d %d.5 %d",M,mid,m);
+    return 0;
+}
+```
 
 第二题
 
@@ -471,5 +483,4 @@
 第四题
 
 第五题
-
 
