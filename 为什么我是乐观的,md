@@ -1,0 +1,144 @@
+# Why I am Optimistic
+
+## Patrick H. Winston
+
+I believe that we can discover the computational basis of natural intelligence during the next ten years or so.
+
+我相信在下一个十年我们可以发现自然人工智能的计算基础
+
+Several sources of optimism contribute to this optimistic view, and support the collective view expressed by the authors of materials to be found in [The Human Intelligence Enterprise](http://www.ai.mit.edu/HIE/index.html).
+
+几种乐观主义的来源促成了这一乐观的观点，而且这些观点也被人工智能企业观点材料的作者共同支持
+
+## The Paradigm shift思维范式的转变
+
+From the engineering perspective, Artificial Intelligence is a grand success. Programs with roots in Artificial Intelligence research perform feats of mathematical wizardry, act as genetic counselors, schedule gates at airports, and extract useful regularities from otherwise impenetrable piles of data.
+
+从工程的角度看，人工智能是一个伟大的成功。根植于人工智能研究的程序，演示着数学魔法的威力，它作为基因顾问，在机场设置登机口，从难以穿透的数据维中探索其中隐藏的规律
+
+From the scientific perspective, however, not so much has been accomplished, and the goal of understanding intelligence, from a computational point of view, remains elusive. Reasoning programs still exhibit little or no common sense. Today's language programs translate simple sentences into database queries, but those language programs are derailed by idioms, metaphors, convoluted syntax, or ungrammatical expressions. Today's vision programs recognize engineered objects, but those vision programs are easily derailed by faces, trees, and mountains.
+
+然而，以科学的角度看来，还有太多工作没有完成，理解智能的目标，从可计算角度看来，仍然是难以捉摸的，推理程序仍然或者根本没有常识。今天的翻译程序将简单的据此转换为数据库查询，但是这些语言程序被俚语，隐喻，复杂的语法，错误的表达而搞的失效。今天的视觉陈虚谷能够识别工程物体，但是也非常容易被人脸，树木和山峰所欺骗。
+
+Why so litte progress? Since the field of Artificial Intelligence was born in the 1960s, most of its practitioners have believed—or at least acted as if they have believed—that vision, language, and motor faculties are the I/O channels of human intelligence. They believe that if we are to account for intelligence, we have to understand the reasoning engine that stands behind those faculties. Some suggest that people interested in vision, language, and motor issues should attend their own conferences, lest the value of Artificial Intelligence conferences be diminished by irrelevant distractions. Some write textbooks that devote no space whatsoever to vision, language, and motor topics.
+
+为什么进展如此缓慢。人工智能领域诞生于1960年代，大部分开创者认为，至少看起来他们好像认为，视觉，语言，运动能力是ai的输入频道，他们认为如果我们想要解释智能，我们必须理解这些东西背后的原理，一些人建议那些对视觉语言运动有兴趣的人应该关注他们领域的会议，唯恐ai会议的价值被不相关的干扰所削弱。一些教科书甚至不关注视觉，语言和运动这些领域。
+
+Of course, one could argue that 30 years is not much time for a science to develop. It might be that vision, language, and motor faculties indeed are just I/O channels, and another 30 years, or another 300 years, will be required to develop the theory needed to understand what lies behind them. It is hard to argue against such a more-time-needed view, because it is easy to fall into what Seymour Papert once called the *unthinkability fallacy*: you can't do it that way because I cannot think how anyone could do it that way.
+
+当然，有人会说30年对于一个科学领域来说不是一个太长的时间，可能视觉，语言和运动的确就是io频道，需要再一个30 300年来发展理解它背后原理的理论。我们很难反驳这种需要更多时间的论调，因为它很容以陷入西蒙帕里曾称之为不可知的谬论，你不能这么做因为我难以想象一个人竟然能这么做。
+
+To me, there is an attractive alternative: I believe that our intelligence is in our I/O channels, not behind them, and if we are to understand intelligence, we must understand the contributions of vision, language, and motor faculties.
+
+对于我，这是一个有吸引力的替代假设：我认为人工智能就蕴含再io频道之中，而不是在它背后，如果我们要理解智能，我们必须要理解视觉语言运动的贡献。
+
+## Evidence from watching the brain at work通过探究大脑工作的证据
+
+Using Functional Magnetic Resonance Imaging and Positron Emission Tomography, researchers can determine which brain areas show increased energy consumption as you think various sorts of thoughts. If you throw a ball, your cerebellum lights up. If you watch the ball fly, your occipital lobe lights up. And if you hear the ball land, your temporal lobe lights up.
+
+利用核磁共振和x射线技术，研究者可以确定，当你正在思考，哪个大脑区域能量摄取的增加，如果你扔一个球，你的小脑亮了。如果你观察一个球飞起来了，你的枕叶会亮起来。而且如果你通道球落地了，你的颤叶亮起来了。
+
+Nothing in those observations surprises. All are in accordance with classical theories of brain function. You hit perceptual apparatus with stimuli, and peripheral parts of your brain process information.
+
+这些观察没有什么令人惊奇的。所有这些都在经典脑功能理论的预料之中。你用刺激物击中感觉器官，你的大脑外围区域处理这些信息。
+
+Remarkably, however, those same peripheral parts of your brain can light up without the benefit of perceptual stimulation. For example, if you close your eyes, and someone asks you to think about an alphabetic character, your occipital lobe lights up in a way reminiscent of what happens when you look at an alphabetic character. And if someone asks you to think of a verb that goes with the noun *hammer*, and you think of *pound*, several parts of your brain associated with language understanding light up, as well as the the right side of your cerebellum. What? Your cerebellum? That part of your brain that sits on top of your spinal cord is supposed to be for fine motor control. What is it doing lighting up during what might seem to be a task for the language faculty alone?
+
+令人惊讶的是，这些大脑外围区域，当你没有在受到感觉器官刺激的时候，也会点亮。例如当你闭上你的眼睛，一个人要你想一个字母字符，如果有人让你想到一个与名词hammer连用的动词，而你想到了pound，你大脑中与语言理解相关的几个部分就会亮起来，小脑的右侧也会亮起来。什么，你的小脑？什么？你的小脑？你大脑中位于脊髓顶部的那部分应该是用来进行精细运动控制的。在似乎是执行一个语言功能任务时候，它在做什么？
+
+Such experiments force the conclusion that vision, language, and motor areas—once viewed as exclusively for processing external stimuli—are involved in just plain thinking.
+
+这些实验迫使我们得出这样的结论：视觉、语言和运动区域，曾经被认为是专门用于处理外部刺激的，也包括在思维之中。
+
+## Evidence from neuroanatomy神经解剖学证据
+
+Of course, it is not really surprising that much of the peripheral brain lights up when you think. Neuroanatomists have found much evidence to the effect that for every bundle of nerve fibers projecting one way, there is a complementary set that projects the other way.
+
+当然，当你思考的时候，周围的大脑会亮起来，这并不奇怪。神经解剖学家已经发现，许多证据表明，每一束神经纤维以一种方式投射，都有一组互补的神经纤维以另一种方式投射。
+
+Of course, projections toward peripheral parts of the brain might be there only to control or tune the processing done by those peripheral parts. Such explanation does not easily account for the number of fibers projecting toward the peripheral parts of the brain. There are so many such fibers, you cannot avoid thinking that the peripheral brain is not only heavily used in perception, but also heavily reused in just plain thinking.
+
+当然，对大脑外围部分的投射可能只是为了控制或调节这些外围部分所做的处理。这种解释并不容易解释向大脑外围投射的纤维数量。有这么多这样的纤维，你不能不想到，周围的大脑不仅在感知上被大量使用，而且在单纯的思考中也被大量重复使用。
+
+## Inspiration from armchair psychology心理学的启示
+
+### Visual problem solving
+
+Ask a small child to add 2 and 2; she will convert the problem into a visual finger-counting exercise. Ask an adult to name the 10th letter in the alphabet; he will hold up his hand and start counting, just as if he were a child adding. Ask a physics student to solve a problem; he will draw a diagram.
+
+让一个小孩加上2和2；她会把这个问题转化为一个视觉手指计数练习。让一个成年人说出字母表中的第10个字母；他会举起手开始数数，就好像他是个孩子一样。让一个物理学生解决一个问题，他会画一张图表。
+
+There is no doubt about it: vision makes it possible to solve problems that would otherwise be difficult or impossible. To be sure, visual problem solving is not the only kind, but it is hard to imagine how we can understand how the brain thinks unless we understand how it sees.
+
+毫无疑问：视觉使解决原本困难或不可能解决的问题成为可能。诚然，解决视觉问题并不是唯一的方法，但很难想象，除非我们了解大脑是如何看待的，否则我们如何理解大脑是如何思考的。
+
+### Linguistic problem solving语言问题解决
+
+Danny Hillis once asked me if I ever had the experience of explaining an idea to someone, only to have the idea misunderstood into an idea that was actually better. Sure, I replied, it happens every time I try to explain something to Marvin Minsky.
+
+丹尼·希利斯曾经问过我，我是否有过向别人解释一个想法的经历，结果这个想法被误解成了一个实际上更好的想法。当然，我回答说，每次我试图向马文·明斯基解释一些事情时都会发生这种情况。
+
+Danny's point, of course, was that the inner conversation many (all?) people have when they solve problems may play the same role as a conversation with someone else. Processing thoughts expressed as word sequences must excite important thinking mechanisms buried in our language-processing hardware. Thus, the thinking lies in the language-processing hardware, not behind it.
+
+当然，丹尼的意思是，人们解决问题时，他们可能扮演着和别人谈话一样的角色。处理字序列表示的思想必须激发隐藏在语言处理硬件中的重要的思维机制。因此，思维蕴含于语言处理中，而不是其背后。
+
+## Inspiration from landmark papers
+
+One way to explain a point of view is to cite a set of landmark papers that seminally point the way. Unfortunately, the position I take is relatively new and relatively rare, at least to me. Accordingly, only a handful of papers seem seminal, and they really do not point the way in the absence of explanation. So far, those papers are the following:
+
+- Marvin Minsky: "K-lines: A Theory of Memory," *Cognitive Science*, vol. 4, no. 1, 1980. Many of the ideas also are to be found in Minsky's book, *Society of Mind*, Simon & Schuster, 1985.
+
+一种解释观点的方法是引用一组具有里程碑意义的论文，这些论文具有开创性的意义。不幸的是，我所处领域相对较新，也相对少见，至少对我来说是这样。因此，只有少数几篇论文似乎具有开创性，它们在缺乏解释的情况下确实没有指明方向。到目前为止，这些文件如下：
+
+
+
+-马文·明斯基：《k线：记忆理论》，《认知科学》，第4卷，第1期，1980年。许多想法也可以在明斯基的书中找到，*心理学会*，西蒙和舒斯特，1985年。
+
+Minsky argued that thinking is largely a matter of reusing states previously established by perception.
+
+- Shimon Ullman: "Sequence Seeking and Counter Streams," Chapter 10 in Ullman's book, *High Level Vision*, MIT Press, 1996.
+
+明斯基认为，思维在很大程度上是一个重用先前由感知建立的状态的复用。
+
+
+
+-希蒙·乌尔曼：《序列搜索与逆流》，乌尔曼著作《高层次视觉》第10章，麻省理工出版社，1996年。
+
+Ullman offers a theory of visual recognition in which alternative transformations produce two highly branching search trees that extend toward each other from new perceptions and from a previously-stored model. When the bi-directional search produces a match, the perceived object is recognized. His paper draws some of its inspiration from the established bi-directional nature of neural connections.
+
+ullman提出了一种视觉识别理论，在该理论中，替代变换产生两个高度分支的搜索树，从新的感知和先前存储的模型向彼此延伸。当双向搜索产生匹配时，感知对象被识别。他的论文从已建立的神经连接的双向性中得到了一些启发。
+
+- Kenneth Yip and Gerald Sussman: "A Computational Model for the Acquisition and Use of Phonological Knowledge," widely circulated, but as yet unpublished manuscript.
+- 叶肯尼斯和苏斯曼：“语音知识获取和使用的计算模型”，广泛流传，但尚未出版的手稿
+
+Yip and Sussman exhibit a theory of how certain English phonological rules might be learned and put to use by mechanisms that make heavy use of a bi-directional constraint propagation mechanism. Their paper argues for the central importance of sparsely populated phonological spaces, and may shed light on why acoustic signals seem to become words, and more generally, on why signals at the neural level seem to correspond to symbols at the thought level.
+
+叶和苏斯曼展示了一种理论，通过大量使用双向约束传播机制的机制，可以学习和使用某些英语语音规则。他们的论文论证了人烟稀少的语音空间的中心重要性，并可能揭示为什么声音信号看起来像是单词，更广泛地说，为什么神经层面的信号似乎与思维层面的符号相对应。
+
+## Sudden revolution or another brick wall
+
+I do not believe that the I/O channel view equates to believing that understanding intelligence is a simple matter. The computations that produce intelligence are surely sophisticated, and unlikely to be understood via incremental progress.
+
+Nevertheless, I believe progress in Artificial Intellgence, based on the view that our intelligence is in the I/O, will be either rapid or nonexistent; it cannot be slow. I believe that today's reasons for optimism either will fuel a revolution, or those reasons will play out and prove unworthy.
+
+我不认为I/O通道视图等同于相信理解智能是一件简单的事情。产生智能的计算肯定是复杂的，不太可能通过渐进的过程来理解。
+
+
+
+尽管如此，我相信基于我们的智能在I/O中的观点，人工智能的进步将是迅速的或不存在的；它不会是缓慢的。我相信，今天乐观的理由，要么会助长革命，要么会发挥出来，证明不配。
+
+Thus, after five to ten years, if there is no substantial progress toward understanding intelligence, I will have to conclude, reluctantly, that the ideas on which I base my optimism were unequal to the task.
+
+因此，五到十年后，如果在理解智力方面没有实质性进展，我将不得不勉强得出结论，即我所持乐观态度所依据的思想不足以胜任这项任务。
+
+Critics could say that they have heard all this before, citing perhaps rule-based systems or neural nets as examples of highly hyped ideas offered by over-stimulated proponents as *the answer*.
+
+批评者可能会说，他们以前就听过这一切，他们引用的例子可能是基于规则的系统或神经网络，作为过度刺激的支持者提供的高度炒作的想法作为“答案”。
+
+In response, little can be offered, because until the strength of the new paradigm is demonstrated, the contest is really just between a new dream and a variety of already played out dreams.
+
+作为回应，我们所能提供的很少，因为除非新范式的力量得到证明，否则这场竞赛实际上只是在一个新梦想和各种已经实现的梦想之间进行。
+
+Of course, with energy, the new paradigm could be compared and contrasted with the old. I prefer to expend that energy in the direction of research leading toward experiments and demonstrations, rather than scholarship leading toward arguments, because I believe that one success has far greater force than speculation about whether any success is likely or possible.
+
+当然，有了能量，新的范式可以与旧的进行比较和对比。我更愿意把精力花在实验和演示方面的研究上，而不是花在学术上的争论上，因为我相信一个成功的力量远远大于对任何成功是否可能的猜测。
